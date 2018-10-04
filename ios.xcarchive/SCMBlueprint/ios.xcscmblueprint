@@ -1,0 +1,26 @@
+{
+  "DVTSourceControlWorkspaceBlueprintLocationsKey" : {
+    "A8631537A2C63AB1ABCFC5AAE4824C61FA12A06A" : {
+      "DVTSourceControlBranchIdentifierKey" : "sdk1.0.0",
+      "DVTSourceControlLocationRevisionKey" : "1539684abd52dd34846b4bac98184bbede7bdb24",
+      "DVTSourceControlBranchOptionsKey" : 4,
+      "DVTSourceControlBranchRemoteNameKey" : "origin",
+      "DVTSourceControlWorkspaceBlueprintLocationTypeKey" : "DVTSourceControlBranch"
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A8631537A2C63AB1ABCFC5AAE4824C61FA12A06A",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A58685B7-0B98-4530-8A9A-DB5E4AA1CD11",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A8631537A2C63AB1ABCFC5AAE4824C61FA12A06A" : "greedy-ios-beta\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ios",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/vishnuj_ios@bitbucket.org\/greedygame\/greedy-ios-beta.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A8631537A2C63AB1ABCFC5AAE4824C61FA12A06A"
+    }
+  ]
+}
