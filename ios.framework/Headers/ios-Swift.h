@@ -269,13 +269,13 @@ SWIFT_CLASS("_TtC3ios15GreedyGameAgent")
 SWIFT_CLASS("_TtCC3ios15GreedyGameAgent7Builder")
 @interface Builder : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (Builder * _Nonnull)enableAdmob:(BOOL)value SWIFT_WARN_UNUSED_RESULT;
-- (Builder * _Nonnull)addUnit:(NSString * _Nonnull)unit SWIFT_WARN_UNUSED_RESULT;
-- (Builder * _Nonnull)stateListener:(id <CampaignStateListener> _Nonnull)stateListener SWIFT_WARN_UNUSED_RESULT;
-- (Builder * _Nonnull)setUnitsWithUnits:(NSArray<NSString *> * _Nullable)units SWIFT_WARN_UNUSED_RESULT;
-- (Builder * _Nonnull)bdLogsEnabledWithIsEnabled:(BOOL)isEnabled SWIFT_WARN_UNUSED_RESULT;
-- (Builder * _Nonnull)enableCOPPA:(BOOL)value SWIFT_WARN_UNUSED_RESULT;
-- (Builder * _Nonnull)withPrivacyOptionsWithPrivacyOptions:(PrivacyOptions * _Nonnull)privacyOptions SWIFT_WARN_UNUSED_RESULT;
+- (Builder * _Nonnull)enableAdmob:(BOOL)value;
+- (Builder * _Nonnull)addUnit:(NSString * _Nonnull)unit;
+- (Builder * _Nonnull)stateListener:(id <CampaignStateListener> _Nonnull)stateListener;
+- (Builder * _Nonnull)setUnitsWithUnits:(NSArray<NSString *> * _Nullable)units;
+- (Builder * _Nonnull)bdLogsEnabledWithIsEnabled:(BOOL)isEnabled;
+- (Builder * _Nonnull)enableCOPPA:(BOOL)value;
+- (Builder * _Nonnull)withPrivacyOptionsWithPrivacyOptions:(PrivacyOptions * _Nonnull)privacyOptions;
 - (GreedyGameAgent * _Nonnull)build SWIFT_WARN_UNUSED_RESULT;
 @end
 
@@ -285,6 +285,8 @@ SWIFT_CLASS("_TtC3ios14PrivacyOptions")
 - (void)setNpaWithNpa:(BOOL)npa;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
